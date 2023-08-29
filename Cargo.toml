@@ -1,0 +1,10 @@
+[package]
+name = "lsusb-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.0", features = ["derive"] }
+rusb = "0.9"
+usb-ids = "1.2023.5"
+iconv = "0.1.1"
